@@ -12,5 +12,5 @@
    "manifest_version": 2,
    "name": "FineArt",
    "permissions": [ "activeTab" ],
-   "version": "3"
+   "version": "4"
 }
