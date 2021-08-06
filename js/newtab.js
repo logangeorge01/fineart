@@ -1,16 +1,3 @@
-window.onload = () => {
-   const stop = Math.floor(Math.random() * 99);
-   const img = new Image();
-   img.src = l[stop][3];
-   const int = setInterval(() => {
-      if (img.complete) {
-         clearInterval(int);
-         document.getElementById('artwork').src = l[stop][3];
-         document.getElementById('desc').innerHTML = `<b>${l[stop][0]}</b><br>${l[stop][1]}<br>${l[stop][2]}`;
-      }
-   }, 50);
-}
-
 const l = [
 	["Mona Lisa", "Leonardo da Vinci", 1503, "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/515px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"], 
 	["The Starry Night", "Vincent van Gogh", 1889, "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/970px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"], 
@@ -100,3 +87,17 @@ const l = [
 	["The Pont Du Gard", "Hubert Robert", 1786, "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Pont-du-gard-hubert-robert-1786.jpg/606px-Pont-du-gard-hubert-robert-1786.jpg"], 
 	["The Luncheon On The Grass", "Édouard Manet", 1863, "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg/989px-Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg"]
 ];
+
+window.onload = () => {
+   const stop = Math.floor(Math.random() * (l.length - 1));
+   const img = new Image();
+   img.src = l[stop][3];
+   const int = setInterval(() => {
+      if (img.complete) {
+         clearInterval(int);
+         document.getElementById('artwork').src = l[stop][3];
+         document.getElementById('desc').innerHTML = `<b>${l[stop][0]}</b><br>${l[stop][1]}<br>${l[stop][2]}`;
+      }
+   }, 50);
+}
+
