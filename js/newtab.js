@@ -89,7 +89,7 @@ const l = [
 ];
 
 window.onload = () => {
-   const stop = Math.floor(Math.random() * (l.length - 1));
+   const stop = Date.now() % l.length;
    const img = new Image();
    img.src = l[stop][3];
    const int = setInterval(() => {
