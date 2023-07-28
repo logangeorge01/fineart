@@ -1,6 +1,6 @@
 {
    "author": "Logan George",
-   "browser_action": {
+   "action": {
       "default_icon": "icon40.png",
       "default_popup": "popup.html",
       "default_title": "FineArt"
@@ -9,10 +9,10 @@
       "newtab": "newtab.html"
    },
    "description": "Random famous paintings in your new tab",
-   "manifest_version": 2,
+   "manifest_version": 3,
    "name": "FineArt",
    "permissions": [ "activeTab" ],
-   "version": "5",
+   "version": "6",
 	"icons": {
 		"16": "icon16.png",
 		"48": "icon48.png",
