@@ -57,7 +57,7 @@ const l = [
 	["Flaming June", "Frederic Leighton", 1895, "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flaming_June%2C_by_Frederic_Lord_Leighton_%281830-1896%29.jpg/767px-Flaming_June%2C_by_Frederic_Lord_Leighton_%281830-1896%29.jpg"], 
 	["Composition VIII", "Wassily Kandinsky", 1913, "https://upload.wikimedia.org/wikipedia/commons/b/b4/Vassily_Kandinsky%2C_1913_-_Composition_7.jpg"], 
 	["Oath of the Horatii", "Jacques-Louis David", 1784, "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Jacques-Louis_David%2C_Le_Serment_des_Horaces.jpg/997px-Jacques-Louis_David%2C_Le_Serment_des_Horaces.jpg"], 
-	["A Friend In Need", "Cassius Marcellus Coolidge", 1903, "https://upload.wikimedia.org/wikipedia/commons/8/8b/A_Friend_in_Need_1903_C.M.Coolidge.jpg"], 
+	["A Friend In Need", "Cassius Marcellus Coolidge", 1903, "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/A_Friend_in_Need_1903_C.M.Coolidge.jpg/1024px-A_Friend_in_Need_1903_C.M.Coolidge.jpg"], 
 	["The Barque of Dante", "Eugène Delacroix", 1822, "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Eug%C3%A8ne_Delacroix_-_The_Barque_of_Dante.jpg/800px-Eug%C3%A8ne_Delacroix_-_The_Barque_of_Dante.jpg"], 
 	["Saturn Devouring His Son", "Francisco Goya", 1819, "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg/429px-Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg"], 
 	["The Battle of Alexander at Issus", "Albrecht Altdorfer", 1529, "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Albrecht_Altdorfer_-_Schlacht_bei_Issus_%28Alte_Pinakothek%2C_M%C3%BCnchen%29.jpg/588px-Albrecht_Altdorfer_-_Schlacht_bei_Issus_%28Alte_Pinakothek%2C_M%C3%BCnchen%29.jpg"], 

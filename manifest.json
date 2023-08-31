@@ -11,8 +11,7 @@
    "description": "Random famous paintings in your new tab",
    "manifest_version": 3,
    "name": "FineArt",
-   "permissions": [ "activeTab" ],
-   "version": "6",
+   "version": "8",
 	"icons": {
 		"16": "icon16.png",
 		"48": "icon48.png",
