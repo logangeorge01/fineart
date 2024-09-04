@@ -1,5 +1,5 @@
 window.onload = () => {
-	fetch('https://raw.githubusercontent.com/logangeorge01/fineart/logangeorge/master/artwork.json')
+	fetch('https://raw.githubusercontent.com/logangeorge01/fineart/master/js/artwork.json')
 		.then(response => response.json())
 		.then(l => {
 			const stop = Date.now() % l.length;
