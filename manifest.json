@@ -11,7 +11,7 @@
    "description": "Random famous paintings in your new tab",
    "manifest_version": 3,
    "name": "FineArt",
-   "version": "11",
+   "version": "12",
 	"icons": {
 		"16": "icons/icon16.png",
 		"48": "icons/icon48.png",
