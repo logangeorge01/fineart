@@ -2,6 +2,8 @@ window.onload = () => {
 	fetch('https://raw.githubusercontent.com/logangeorge01/fineart/master/js/artwork.json')
 		.then(response => response.json())
 		.then(artworks => {
+			// artworks = asdf.map(artwork => artwork.slice(0, 4));
+			// artworks = asdf.slice(0, 4)
 			const gallery = document.getElementById('gallery');
 
 			// Set up the grid properties
